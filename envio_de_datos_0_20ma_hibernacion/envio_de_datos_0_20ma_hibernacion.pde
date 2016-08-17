@@ -1,4 +1,11 @@
-  // incluye lbreria para el modulo wifi
+ /* 
+ este programa  lee entradas de sensores industriales 
+ los cuales tienen una salida de 0 a 20 mili amperios
+ se lee los datos de 3 sensores y se envian a la red 
+ haciendo uso de un modulo wifi, tambien se hiberna cada 5 minutos
+ */
+ 
+ // incluye lbreria para el modulo wifi
 #include <WaspWIFI.h>
 #include <currentLoop.h>
 // Instantiate currentLoop object in channel 1.
