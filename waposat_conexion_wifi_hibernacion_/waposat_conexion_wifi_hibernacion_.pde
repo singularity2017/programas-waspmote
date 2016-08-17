@@ -1,3 +1,8 @@
+/*Este programa lee los sensores de temperatura 
+orp conductividad y bateria para luego enviarlos 
+a la red haciendo uso de la conexion por wifi asi
+mismo  despues de leer y enviar los datos se hiberna
+por un tiempo determinado en este caso 5 minutos */
 
   // incluye lbreria para el modulo wifi
 #include <WaspWIFI.h>
