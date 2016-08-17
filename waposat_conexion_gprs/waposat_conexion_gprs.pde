@@ -1,3 +1,8 @@
+/*
+Este programa lee los sensores de conductividad 
+orp bateria y temperatura y envia los datos obtenidos
+a la red  haciendo uso de la red movil gprs 
+*/
 #include "WaspGPRS_SIM928A.h"
 #include <WaspWIFI.h>
 //incluye libreria para los sensores Smart Water
