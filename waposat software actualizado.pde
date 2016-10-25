@@ -32,7 +32,7 @@ uint8_t status;
 char body[100];
 unsigned long previous;
 
-float Max=1;
+float Max=100;
 //se declara las vartiables para los sensores
 float value_orp;
 float value_battery;
@@ -44,7 +44,7 @@ float value_temperature;
 //se objetos con las clases temperatura y orp
 pt1000Class TemperatureSensor;
 ORPClass ORPSensor;
-char hibernateTime[] = "00:00:00:20";
+char hibernateTime[] = "00:00:05:00";
 
 
 void setup()
